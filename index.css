@@ -1,0 +1,16 @@
+.img {
+    width: 100px;
+    text-align: center;
+}
+body , .card{
+    background-color: black;
+    color: white;
+}
+.card{
+    border:1px solid green;
+}
+.mainpic{
+    max-width: 100%;
+    height: 90vh;
+}
+
