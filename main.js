@@ -5,8 +5,7 @@ function nodeElement(element){
     return document.createElement(element);
 }
 function parentElement(parent,el){
-    return parent.appendChild(el);
-    
+    return parent.appendChild(el);    
 }
 
 const divRow = nodeElement('div');
@@ -14,7 +13,6 @@ divRow.className = 'row';
 parentElement(div,divRow);
 fetch(url).
     then((response) =>  response.json()).
-
     then((response) => {
         console.log(response);
         let chartacters = response;
